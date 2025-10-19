@@ -1,0 +1,26 @@
+{
+  "name": "ctok-vitepress",
+  "version": "1.0.0",
+  "description": "Ctok Claude Code拼车社群 - 专业教程与拼车服务",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "start": "node server.js",
+    "start:80": "sudo node server.js",
+    "deploy": "npm run build && npm run start:80"
+  },
+  "keywords": [
+    "Claude Code",
+    "AI编程工具",
+    "拼车服务",
+    "教程"
+  ],
+  "author": "Ctok Team",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
+

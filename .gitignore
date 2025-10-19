@@ -1,0 +1,28 @@
+node_modules
+.temp
+.cache
+dist
+.vitepress/dist
+.DS_Store
+
+# 日志文件
+*.log
+logs/
+
+# 备份文件
+*.tar.gz
+*.backup
+backups/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
