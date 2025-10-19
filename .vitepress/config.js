@@ -5,6 +5,9 @@ export default defineConfig({
   title: 'Ctok | Claude Code拼车社群 - 专业教程与拼车服务',
   description: 'Claude Code拼车社群 - 专业的Claude Code安装教程、使用技巧、最佳实践和拼车服务平台。Max 20X版本拼车，成本分摊节省60%+，专业管理监控，安全合规共享，10+成功运营群组，全天技术支持，让AI编程更简单高效',
   
+  // 忽略死链接检查（允许链接到尚未创建的页面）
+  ignoreDeadLinks: true,
+  
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'https://ctok.ai/images/ctok-logo.png' }],
     ['link', { rel: 'shortcut icon', href: 'https://ctok.ai/images/ctok-logo.png' }],
